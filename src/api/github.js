@@ -11,5 +11,3 @@ export const githubApiSearchRepos = (params) => {
 export const githubApiGetRepo = (user, repo) => {
   return githubApi.get(`/repos/${user}/${repo}`);
 };
-
-// https://api.github.com/repos/{owner}/{repo}
