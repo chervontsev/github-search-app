@@ -9,7 +9,7 @@ import '../assets/styles.css';
 export default function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Router>
+      <Router basename="/github-search-app/">
         <AppHeader />
         <div className="app-body">
           <Switch>
